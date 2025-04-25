@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:text="Winner!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dialogMessage"
+        android:text="Score here"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:text="Reset Game"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/purple_500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
